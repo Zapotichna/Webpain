@@ -93,7 +93,9 @@ body {
   color: #ffffff;
   background-color:  #ff6760;
   border: none;
-  border-radius: 4px ;
+  border-radius: 4px;
+}
+.button-item{
 }
 /* Services */
 .services{
@@ -121,3 +123,79 @@ body {
   letter-spacing: 0.35px;
 }
 /* Portfolio */
+.portfolio{
+  padding: 70px 0;
+  text-align: center;
+}
+.portfolio-title {
+  color: #616161;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0.75px;
+}
+.portfolio-description{
+  margin: 0 auto 55px;
+  width: 635px;
+  color: #616161;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+.portfolio-img{
+  display: block;
+}
+/* Footer */
+.footer{
+  padding: 60px 0;
+  background-color: #313131;
+  text-align: center;
+}
+.footer-title{
+  color: #e0e0e0;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 60px;
+  letter-spacing: 0.75px;
+}
+.footer-description{
+  padding-bottom: 25px;
+  margin: 0 auto;
+  width: 603px;
+  color: #bebebe;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+.footer-contacts{
+  margin-bottom: 30px;
+  color: #bebebe;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.28px;
+  }
+.footer-contacts i{
+  color: #ff6760;
+}
+/* Social */
+.footer-social{
+  display: flex;
+  justify-content: center;
+}
+.footer-social__item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 7px;
+  color: #ffffff;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-size: 12px;
+}
+.rss{background-color: #f3b25b;}
+.facebook{background-color: #5883c0;}
+.twitter{background-color: #63bee0}
+.dribbble{background-color: #e9a0c4;}
+.pinterest{background-color: #d35051;}
